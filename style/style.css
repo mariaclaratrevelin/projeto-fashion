@@ -1,0 +1,51 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+
+.cabecalho{
+    margin-top: 70px;
+}
+
+
+.container{
+    height: 50px;
+    background-color: #003d52;
+    width: 90%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.container .logo{
+    margin-left: 170px;
+}
+
+
+.container .menu-principal  {
+    list-style: none;
+    letter-spacing: 3px;
+    font-size: 12PX;
+    float: right;
+}
+
+.container #img-topo{
+    width: 1000px;
+}
+
+
+.menu-lista li {
+    display: inline-block;
+
+}
+
+.menu-link {
+    padding: 8px 12px;
+    color: #046383;
+    text-decoration: none;
+}
+
+.menu-link:hover {
+    color: #048cb9;
+    transform: translateY(-2px);
+}
